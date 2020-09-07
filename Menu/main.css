@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: floralwhite;
+}
+
+/*div{
+    text-align: center;
+    background-color: lavender;
+    font-size: 10px;
+}*/
+
+header{
+    text-align: center;
+    background-color: lavender;
+    padding: 3px;
+    color: darkviolet;
+    font-size: 10px;
+}
+nav{
+    float: left;
+    width: 7.5%;
+    height: 100pc;
+    background-color: lavender;
+    padding: 20px;
+    text-align: left;
+    transition: all .2s linear;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+
+    align-content: center;
+    position: absolute;
+    top: 125px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+    font-weight: bolder;
+}
+
+#check{
+    display: none;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.itens{
+    background-color: thistle;
+    color: rgb(59, 59, 59);
+    padding: 14px;
+    font-size: 18px;
+    border-bottom: 2px solid mistyrose;
+    border-radius: 7px; 
+    transition: all .2% linear;
+}
+
+.itens:hover{
+    background-color: rgb(202, 165, 202);
+}
+
+#check:checked ~.itens{
+    transition: ease-in-out;
+}
+
+/*ul{
+    display: none;
+}
+
+.checkbox:hover > ul{
+    display: block;
+}*/
+
+ul li:hover > ul{
+    display: block;
+    top: 60px;
+}
+
+img{
+    background-color: thistle;
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+}
+
+
+article {
+    float: right;
+    padding: 35px;
+    width: 92.5%;
+    height: auto;
+    background-color: mistyrose;
+    font-size: 25px;
+    text-align: center;
+    color: darkviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
